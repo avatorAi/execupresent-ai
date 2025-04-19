@@ -1,0 +1,14 @@
+{
+  "name": "execupresent-ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@msgpack/msgpack": "^2.10.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.12.0"
+  }
+}
