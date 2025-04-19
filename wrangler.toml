@@ -12,7 +12,7 @@
  binding     = "VIDEO_BUCKET"
  bucket_name = "execupresent-videos"
 
-+[[d1_databases]]
-+ binding     = "DB"
-+ database_id = "f2b36438-9cbe-4aa2-bc15-b6e082ace283"   # ← 先ほどコピーした ID に置き換え
-
+ [[d1_databases]]
+ binding     = "DB"
+-database_name = "execupresent-db"
++database_id = "f2b36438-9cbe-4aa2-bc15-b6e082ace283"
