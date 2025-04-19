@@ -1,4 +1,3 @@
-import { encode as mpack } from "@msgpack/msgpack";
 
 export default {
   async fetch(req, env, ctx) {
