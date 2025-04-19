@@ -1,18 +1,19 @@
-name = "execupresent-ai"
-main = "src/index.js"             # ← ここが正しいエントリポイント
+ name = "execupresent-ai"
+ main = "src/index.js"
+ compatibility_date = "2025-04-19"
 
-compatibility_date = "2025-04-19"
+ [vars]
+ DID_AUTH   = ""
+ FISH_KEY   = ""
+ ML_KEY     = ""
+ ML_SECRET  = ""
 
-[vars]
-DID_AUTH   = ""
-FISH_KEY   = ""
-ML_KEY     = ""
-ML_SECRET  = ""
+ [[r2_buckets]]
+ binding     = "VIDEO_BUCKET"
+ bucket_name = "execupresent-videos"
 
-[[r2_buckets]]
-binding     = "VIDEO_BUCKET"
-bucket_name = "execupresent-videos"
 
-[[d1_databases]]
-binding       = "DB"
-database_name = "execupresent-db"
++[[d1_databases]]
++ binding     = "DB"
++ database_id = "f2b36438-9cbe-4aa2-bc15-b6e082ace283"   # ← 先ほどコピーした ID に置き換え
+
